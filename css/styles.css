@@ -1,0 +1,37 @@
+/* 
+Заголавный текст Черный - #212121
+Текст Серый - #757575
+Синий - #2196F3
+
+Фоновый Темно Серый - #2F303A
+Фоновый Светлосерый - #F5F4FA
+Фоновый Белый - #FFFFFF
+ */
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+/* header */
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+}
+.nav-list li {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+.contact-list li {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
