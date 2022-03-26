@@ -74,7 +74,9 @@ body {
 }
 
 .link:hover,
-.link:focus {
+.link:focus, {
+  text-decoration: none
+
   color: #2196f3;
 }
 /* Hero */
@@ -96,9 +98,6 @@ body {
   font-size: 16px;
   line-height: 1.8;
 
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 /* Осоености */
@@ -144,7 +143,7 @@ body {
 .saction-team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,18;
 
   color: var(--title-text-color);
 }
@@ -161,12 +160,32 @@ body {
 }
 
 .footer-contact a {
+  
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height:1,7;
+
+  color: var(--footer-text-color);
+}
+/* Примеры работ */
+.project a {
   text-decoration: none;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height:1,7;
+  letter-spacing: 0.06em;
 
-color: var(--footer-text-color);
+  color: var(--title-text-color)
+}
+.project-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,8;
+
+  color: var(--prmary-text-color)
 }
